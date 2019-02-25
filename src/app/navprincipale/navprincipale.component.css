@@ -35,7 +35,7 @@ img{
   margin-left: 99px;
 }
 
-input{
+#input{
   margin-left: 38px;
   padding: 10px;
   width: 199px
@@ -43,4 +43,13 @@ input{
 
 h2{
   margin-left: 99px;
+}
+
+#casa{
+  cursor: pointer;
+  background-color: rgb(10, 99, 233); /* Green */
+  border: none;
+  color: white;
+  margin-left: 87px;
+  
 }

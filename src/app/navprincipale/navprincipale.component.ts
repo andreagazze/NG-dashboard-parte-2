@@ -22,6 +22,9 @@ export class NavprincipaleComponent {
   password: string;
 
 
+  
+
+
   ngOnInit() {
   }
   login() : void {
@@ -31,6 +34,14 @@ export class NavprincipaleComponent {
       alert("Credenziali non valide");
     }
   }
+
+  home(): void{
+    this.router.navigate(["homepage"])
+   }
+  
+  
+  
+  
 
 
 

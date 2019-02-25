@@ -7,9 +7,31 @@ form{
 
 
 p{
+    font-size: 80%;
     color: red
 }
 
 h3{
     margin-left: 99px;
 }
+
+button{
+        background-color: rgb(10, 99, 233); /* Green */
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 51px;
+      }
+
+      #casa2{
+        cursor: pointer;
+        text-align: center;
+          height: 8px;
+          margin-left: 200px;
+      }

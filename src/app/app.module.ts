@@ -19,7 +19,8 @@ import{MatNativeDateModule} from '@angular/material';
 import{ReactiveFormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTabsModule} from '@angular/material/tabs';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { EventiComponent } from './eventi/eventi.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms'
     NavbarComponent,
     NavprincipaleComponent,
     LoginComponent,
-    FormComponent
+    FormComponent,
+    EventiComponent
 
   ],
   imports: [

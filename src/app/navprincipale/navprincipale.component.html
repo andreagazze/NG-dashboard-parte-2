@@ -19,15 +19,16 @@
                    <mat-tab label="Accedi">
 
                         <h2>Accedi</h2>
-                        <mat-form-field>
-                          <input id="input" matInput placeholder="username"  [(ngModel)]='username' required>
+                        <mat-form-field id="input">
+                          <input  matInput placeholder="username"  [(ngModel)]='username' required>
                           </mat-form-field>
                         <br>
-                        <mat-form-field>
-                          <input id="input" matInput placeholder="password"  [(ngModel)]='password' required>
+                        <mat-form-field id="input">
+                          <input type="password"  matInput placeholder="password"  [(ngModel)]='password' required>
                           </mat-form-field>
                           <br>
-                        <button (click)="login()" id="x" > LOGIN</button>
+                          <button (click)="login()" id="x" > LOGIN</button>
+                          <button id="casa" (click)="home()">HOME</button>
               
 
                    </mat-tab>
@@ -38,9 +39,7 @@
                 <mat-tab label="Registrati">
               
                         <app-form></app-form>
-                        <button id="x">REGISTRATI</button>
-            
-            
+                                
                  </mat-tab>
 
          </mat-tab-group>
